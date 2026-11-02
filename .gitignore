@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Model files
+*.gguf
+*.safetensors
+*.bin
+*.pth
+*.pt
+
+# IDE
+.vscode/
+
+#Dataset 
+dataset/
+
