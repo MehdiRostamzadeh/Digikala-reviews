@@ -1,0 +1,29 @@
+{
+    "dataset": "digikala-comments.csv",
+    "split_method": "group_hash_split",
+    "group_column": "product_id",
+    "split_column": "split",
+    "hash": {
+        "function": "pandas.util.hash_pandas_object",
+        "hash_key": "digikala2026seed"
+    },
+    "thresholds": {
+        "train": 7000,
+        "validation": 8500
+    },
+    "target_ratios": {
+        "train": 0.7,
+        "validation": 0.15,
+        "test": 0.15
+    },
+    "row_counts": {
+        "train": 4299489,
+        "validation": 925399,
+        "test": 931401
+    },
+    "product_counts": {
+        "train": 232277,
+        "validation": 49484,
+        "test": 49838
+    }
+}
